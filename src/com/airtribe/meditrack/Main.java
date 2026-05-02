@@ -20,15 +20,16 @@ public class Main {
 
         while (true) {
 
-            System.out.println("\n1 Add Patient");
-            System.out.println("2 View Patients");
-            System.out.println("3 Add Doctor");
-            System.out.println("4 Book Appointment");
-            System.out.println("5 View Appointments");
-            System.out.println("6 Generate Bill");
-            System.out.println("7 Save Data");
-            System.out.println("8 Load Data");
-            System.out.println("9 Exit");
+            System.out.println("\n1. Add Patient");
+            System.out.println("2. View Patients");
+            System.out.println("3. Add Doctor");
+            System.out.println("4. Book Appointment");
+            System.out.println("5. View Appointments");
+            System.out.println("6. Generate Bill");
+            System.out.println("7. Save Data");
+            System.out.println("8. Load Data");
+            System.out.println("9. Exit");
+            System.out.print("Choose an option: ");
 
             int ch = sc.nextInt();
 
