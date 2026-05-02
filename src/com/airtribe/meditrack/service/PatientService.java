@@ -13,7 +13,7 @@ public class PatientService {
     public void addPatient(String name, int age) {
         int id = IdGenerator.generateId();
         patients.add(new Patient(id, name, age));
-        System.out.println("Patient added");
+        System.out.println("Patient added successfully");
     }
 
     public void viewPatients() {
