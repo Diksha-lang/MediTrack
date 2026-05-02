@@ -19,6 +19,8 @@ public class Main {
         List<String> fileData = new ArrayList<>();
 
         while (true) {
+            System.out.println("MediTrack System Started");
+
 
             System.out.println("\n1. Add Patient");
             System.out.println("2. View Patients");
